@@ -1,0 +1,29 @@
+EDIT BAR V15.2 — FINAL NETLIFY FUNCTIONS PACKAGE
+
+IMPORTANT:
+This package contains Netlify Functions for Owner Gmail OTP and Google Login.
+Do NOT deploy this package by Netlify Drop/drag-and-drop if you need the Functions.
+Use a Git-connected Netlify deploy or Netlify CLI manual deploy.
+
+Required Netlify environment variables:
+OWNER_NAME
+OWNER_PASSWORD
+OWNER_EMAIL
+OWNER_JWT_SECRET
+OTP_TTL_MINUTES
+SMTP_HOST
+SMTP_PORT
+SMTP_SECURE
+SMTP_USER
+SMTP_APP_PASSWORD
+GOOGLE_CLIENT_ID
+
+Google Client Secret must NOT be placed in the browser or shared.
+
+Functions:
+/api/owner/request-otp
+/api/owner/verify-otp
+/api/auth/google-config
+/api/auth/google
+
+Netlify Functions directory: netlify/functions

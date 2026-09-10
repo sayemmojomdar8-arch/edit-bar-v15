@@ -1,0 +1,10 @@
+{
+  "name": "edit-bar-v15-netlify",
+  "version": "15.2.0",
+  "private": true,
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.6",
+    "google-auth-library": "^10.3.0"
+  }
+}

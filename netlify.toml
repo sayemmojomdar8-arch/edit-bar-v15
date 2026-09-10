@@ -1,0 +1,23 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/owner/request-otp"
+  to = "/.netlify/functions/owner-request-otp"
+  status = 200
+
+[[redirects]]
+  from = "/api/owner/verify-otp"
+  to = "/.netlify/functions/owner-verify-otp"
+  status = 200
+
+[[redirects]]
+  from = "/api/auth/google"
+  to = "/.netlify/functions/google-verify"
+  status = 200
+
+[[redirects]]
+  from = "/api/auth/google-config"
+  to = "/.netlify/functions/google-config"
+  status = 200
